@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<div id="main">
+
+    <div id="top">
+        <h1 id="title">Valorant Survey Form</h1>
+        <p id="description">Lorem ipsum dolor sit amet</p>
+    </div>
+
+    <div>
+        <form id="survey-form">
+
+            <h4>Name</h4>
+            <label id="name-label" for="name">
+                <input id="name" type="text" placeholder="Enter your Name">
+            </label>
+            <h4>Email</h4>
+            <label id="email-label" for="email">
+                <input id="email" type="email" placeholder="Enter your Email">
+            </label>
+            <h4>Age</h4>
+            <label id="number-label" for="number">
+                <input id="number" type="number" placeholder="Enter your Age" min="1" max ="100">
+            </label>
+
+            <h4>Who's your favorite duelst?</h4>
+            <select name="favorite-duelist" id="dropdown">
+                <option value="jett">Jett</option>
+                <option value="reyna">Reyna</option>
+                <option value="raze">Raze</option>
+                <option value="phoenix">Phoenix</option>
+            </select>
+
+            <h4>How many hours a day do you play?</h4>
+            <label for="half-hour">
+                <input id="half-hour" type="radio" name="playtime">Half an hour
+            </label>
+            <label for="under-two">
+                <input id="under-two" type="radio" name="playtime">Less than two hours
+            </label>
+            <label>
+                <input id="two-plus" type="radio" name="playtime">Two or more hours
+            </label><br>
+
+
+            
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+
+
+
+
+
+
+</div>
+
+</body>
+</html>
